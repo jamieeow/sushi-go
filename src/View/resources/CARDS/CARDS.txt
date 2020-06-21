@@ -1,0 +1,22 @@
+--nigiri
+squid 	
+salmon 	
+egg 	
+
+--rolls
+maki		
+
+--appetizers
+tempura		
+sashimi		
+miso soup
+dumplings
+tofu
+
+--specials
+wasabi
+tea
+
+--desserts
+green tea ice cream
+pudding
