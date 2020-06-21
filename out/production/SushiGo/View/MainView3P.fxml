@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="965.0" style="-fx-background-color: #fce6a7;" stylesheets="@resources/style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController3P">
+   <children>
+<!--      <ToolBar styleClass="toolbar">-->
+<!--         <Button text="Home">-->
+<!--            <graphic>-->
+<!--               <ImageView>-->
+<!--                  <image>-->
+<!--                     <Image url="@resources/home-outline.png" />-->
+<!--                  </image>-->
+<!--               </ImageView>-->
+<!--            </graphic>-->
+<!--         </Button>-->
+<!--         <Separator />-->
+<!--         <Button text="Blog">-->
+<!--            <graphic>-->
+<!--               <ImageView>-->
+<!--                  <image>-->
+<!--                     <Image url="@resources/note-multiple-outline.png" />-->
+<!--                  </image>-->
+<!--               </ImageView>-->
+<!--            </graphic>-->
+<!--         </Button>-->
+<!--         <Separator />-->
+<!--         <Button text="About">-->
+<!--            <graphic>-->
+<!--               <ImageView>-->
+<!--                  <image>-->
+<!--                     <Image url="@resources/account-box-outline.png" />-->
+<!--                  </image>-->
+<!--               </ImageView>-->
+<!--            </graphic>-->
+<!--         </Button>-->
+<!--         <Separator />-->
+<!--         <Pane HBox.hgrow="ALWAYS" />-->
+<!--         <Separator />-->
+<!--         <Button text="Contact">-->
+<!--            <graphic>-->
+<!--               <ImageView>-->
+<!--                  <image>-->
+<!--                     <Image url="@resources/email-outline.png" />-->
+<!--                  </image>-->
+<!--               </ImageView>-->
+<!--            </graphic>-->
+<!--         </Button>-->
+<!--      </ToolBar>-->
+      <Pane fx:id="passPilePane" layoutX="26.0" layoutY="176.0" prefHeight="445.0" prefWidth="128.0" style="-fx-background-color: #cccccc;">
+         <children>
+            <ImageView fx:id="kp1" fitHeight="59.0" fitWidth="57.0" layoutX="16.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp2" fitHeight="59.0" fitWidth="57.0" layoutX="74.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp3" fitHeight="59.0" fitWidth="57.0" layoutX="16.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp4" fitHeight="59.0" fitWidth="57.0" layoutX="74.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp5" fitHeight="59.0" fitWidth="57.0" layoutX="17.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp6" fitHeight="59.0" fitWidth="57.0" layoutX="75.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="kp7" fitHeight="59.0" fitWidth="57.0" layoutX="17.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3" styleClass="keepPile">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="boardPane" layoutX="196.0" layoutY="191.0" prefHeight="326.0" prefWidth="497.0" scaleX="1.1" scaleY="1.1" style="-fx-background-color: #9de0d5;">
+         <children>
+            <ImageView fx:id="menu_special2" fitHeight="135.0" fitWidth="80.0" layoutX="402.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_special1" fitHeight="135.0" fitWidth="80.0" layoutX="315.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_rolls" fitHeight="135.0" fitWidth="80.0" layoutX="228.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_nigiri" fitHeight="135.0" fitWidth="80.0" layoutX="141.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_dessert" fitHeight="135.0" fitWidth="80.0" layoutX="276.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_app3" fitHeight="135.0" fitWidth="80.0" layoutX="189.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_app2" fitHeight="135.0" fitWidth="80.0" layoutX="102.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu_app1" fitHeight="135.0" fitWidth="80.0" layoutX="15.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="13.0" layoutY="31.0" prefHeight="129.0" prefWidth="120.0" style="-fx-background-color: #f7f7f7;">
+               <children>
+                  <Label layoutX="11.0" layoutY="16.0" text="ROUND" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+                  <Label layoutX="12.0" layoutY="41.0" text="SCOREBOARD" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="p1scoreLbl" layoutX="14.0" layoutY="60.0" text="Player1" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="p2scoreLbl" layoutX="14.0" layoutY="75.0" text="Player2" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="p3scoreLbl" layoutX="15.0" layoutY="91.0" text="Player3" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="roundLbl" layoutX="11.0" layoutY="16.0" text="ROUND:" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Righteous" size="12.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+
+            <Pane layoutX="363.0" layoutY="166.0" prefHeight="129.0" prefWidth="120.0" style="-fx-background-color: #f7f7f7;" />
+            <Label layoutX="372.0" layoutY="178.0" text="HIGHEST MAKI" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="371.0" layoutY="230.0" text="HIGHEST PUDDING" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="highestMakiLbl" layoutX="372.0" layoutY="188.0" text="Player" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="highestPuddingLbl" layoutX="372.0" layoutY="240.0" text="Player" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="203.0" text="2nd HIGHEST MAKI" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="secondHighestMakiLbl" layoutX="372.0" layoutY="214.0" text="Player" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="371.0" layoutY="253.0" text="LEAST PUDDING" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="leastPuddingLbl" layoutX="371.0" layoutY="264.0" text="Player" textFill="#6f6f6f">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane fx:id="keepPilePane1" layoutX="712.0" layoutY="161.0" prefHeight="176.0" prefWidth="249.0" scaleX="0.8" scaleY="0.8" style="-fx-background-color: #ff9380;">
+         <children>
+            <ImageView fx:id="p1c1" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c2" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c3" fitHeight="59.0" fitWidth="26.0" layoutX="112.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c4" fitHeight="59.0" fitWidth="26.0" layoutX="159.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c5" fitHeight="59.0" fitWidth="26.0" layoutX="206.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c6" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p1c7" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="-6.0" prefHeight="29.0" prefWidth="249.0" style="-fx-background-color: #ed655c;">
+               <children>
+                  <Label fx:id="player1Name" layoutX="97.0" layoutY="1.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="Righteous" size="21.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="countDessertButton" layoutX="171.0" layoutY="553.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" styleClass="button" stylesheets="@resources/style.css" text="COUNT DESSERT" textFill="WHITE">
+         <font>
+            <Font name="Righteous" size="12.0" />
+         </font></Button>
+      <Button fx:id="passPileButton" layoutX="170.0" layoutY="590.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" styleClass="button" stylesheets="@resources/style.css" text="PASS PILE" textFill="WHITE">
+         <font>
+            <Font name="Righteous" size="12.0" />
+         </font></Button>
+      <Pane fx:id="keepPilePane3" layoutX="712.0" layoutY="471.0" prefHeight="176.0" prefWidth="249.0" scaleX="0.8" scaleY="0.8" style="-fx-background-color: #ff9380;">
+         <children>
+            <ImageView fx:id="p3c1" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c2" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c3" fitHeight="59.0" fitWidth="26.0" layoutX="112.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c4" fitHeight="59.0" fitWidth="26.0" layoutX="159.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c5" fitHeight="59.0" fitWidth="26.0" layoutX="206.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c6" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3c7" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="-6.0" prefHeight="29.0" prefWidth="249.0" style="-fx-background-color: #ed655c;">
+               <children>
+                  <Label fx:id="player3Name" layoutX="99.0" layoutY="1.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="Righteous" size="21.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fitHeight="122.0" fitWidth="136.0" layoutX="21.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/LOGO.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="keepPilePane2" layoutX="712.0" layoutY="316.0" prefHeight="176.0" prefWidth="249.0" scaleX="0.8" scaleY="0.8" style="-fx-background-color: #ff9380;">
+         <children>
+            <ImageView fx:id="p2c1" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c2" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c3" fitHeight="59.0" fitWidth="26.0" layoutX="112.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c4" fitHeight="59.0" fitWidth="26.0" layoutX="159.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c5" fitHeight="59.0" fitWidth="26.0" layoutX="206.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c6" fitHeight="59.0" fitWidth="26.0" layoutX="18.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2c7" fitHeight="59.0" fitWidth="26.0" layoutX="65.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+               <image>
+                  <Image url="@resources/CARDS/_BLANK.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="-6.0" prefHeight="29.0" prefWidth="249.0" style="-fx-background-color: #ed655c;">
+               <children>
+                  <Label fx:id="player2Name" layoutX="100.0" layoutY="1.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="Righteous" size="21.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="nextRoundBtn" layoutX="303.0" layoutY="590.0" mnemonicParsing="false" onAction="#setupForNextRound" prefHeight="30.0" prefWidth="128.0" styleClass="button" stylesheets="@resources/style.css" text="NEXT ROUND" textFill="WHITE">
+
+         <font>
+            <Font name="Righteous" size="12.0" />
+         </font></Button>
+      <Pane layoutX="170.0" layoutY="132.0" prefHeight="29.0" prefWidth="249.0" style="-fx-background-color: #c8c24b;">
+         <children>
+            <Label fx:id="playerTurnLbl" layoutX="14.0" layoutY="2.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Righteous" size="21.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</Pane>
